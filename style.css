@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 50px auto;
+    /* width: 12000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-1{
+    /* margin: 50px auto; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E28625;
+    max-width: 200px;
+    color: #FFFFFF;
+    height: 400px;
+    padding-left: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+
+}
+.card-2{
+    /* margin: 50px auto; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #006971;
+    max-width: 200px;
+    color: #FFFFFF;
+    height: 400px;
+    padding-left: 30px;
+
+
+
+}
+.card-3{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #004140;
+    max-width: 200px;
+    color: #FFFFFF;
+    height: 400px;
+    padding-left: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.logo-sedans{
+    margin-bottom: 30px;
+    
+}
+.heading{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.text{
+    max-width: 200px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    opacity: 0.8;
+
+}
+.btn-1 button{
+    padding: 10px 16px;
+    border: none;
+    border-radius: 30px;
+    color: #E28625;
+}
+.btn-2 button{
+    padding: 10px 16px;
+    border: none;
+    border-radius: 30px;
+    color: #006971;
+}
+.btn-3 button{
+    padding: 10px 16px;
+    border: none;
+    border-radius: 30px;
+    color: #004140;
+}
